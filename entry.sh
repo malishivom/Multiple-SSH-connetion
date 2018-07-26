@@ -11,9 +11,9 @@ set -e
 : ${AWS_S3_MOUNTPOINT:='/mnt'}
 : ${AWS_S3_URL:='https://s3.amazonaws.com'}
 : ${S3FS_ARGS:=''}
-AWS_STORAGE_BUCKET_NAME=00_synapse_development
-AWS_ACCESS_KEY_ID=7u4LrRpWnh2U3ebSG/sJLbpiSbqIjHP2ihWIj9gq
-AWS_SECRET_ACCESS_KEY=AKIAJNA7TDU5LPTXVSQQ
+#AWS_STORAGE_BUCKET_NAME=00_synapse_development
+#AWS_ACCESS_KEY_ID=7u4LrRpWnh2U3ebSG/sJLbpiSbqIjHP2ihWIj9gq
+#AWS_SECRET_ACCESS_KEY=AKIAJNA7TDU5LPTXVSQQ
 
 # If no command specified, print error
 [ "$1" == "" ] && set -- "$@" bash -c 'echo "Error: Please specify a command to run."; exit 128'
